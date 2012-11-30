@@ -1,0 +1,8 @@
+
+2012/11/30 
+	* initial update, finished 5 functions
+          calc_area() 
+	  find_focal()
+	  find_over_num()
+	  global_eval()
+	  reg_eval()
