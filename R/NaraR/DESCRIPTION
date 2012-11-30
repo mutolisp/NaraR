@@ -1,0 +1,9 @@
+Package: NaraR
+Type: Package
+Title: Nationl Responsibility of Biodiversity Assessment Tool
+Version: 0.1
+Date: 2012-12-01
+Author: Lin, Cheng-Tao
+Maintainer: Lin, Cheng-Tao <mutolisp@gmail.com>
+Description: Just a simple assessment tool 
+License: GNU GPL v3
