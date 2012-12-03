@@ -1,11 +1,12 @@
 \name{find_over_num}
 \alias{find_over_num}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 %%  ~~function to do ... ~~
+Calculate overlay numbers of two polygons
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Find the intersection of two polygons and calculate the overlay number of items 
+within background layer
 }
 \usage{
 find_over_num(target_layer, background_layer)
@@ -13,14 +14,13 @@ find_over_num(target_layer, background_layer)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{target_layer}{
-%%     ~~Describe \code{target_layer} here~~
+    The target layer is a projected polygon
 }
   \item{background_layer}{
-%%     ~~Describe \code{background_layer} here~~
+    The background layer is a projected polygon
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
 }
 \value{
 %%  ~Describe the value returned
@@ -30,13 +30,11 @@ find_over_num(target_layer, background_layer)
 %% ...
 }
 \references{
-%% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+Lin, Cheng-Tao
 }
 \note{
-%%  ~~further notes~~
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
@@ -58,7 +56,5 @@ function (target_layer, background_layer)
     return(length(unique(unlist(intersection.lst))))
   }
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ overlay }
+\keyword{ intersection }

@@ -2,39 +2,39 @@
 \alias{NaraR}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+calculate national responsibility of biodiversity
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Calculate national responsibility of biodiversity
 }
 \usage{
 NaraR(species.prj, ref_area.prj, focal_list, Area_sp_in_ref, Area_ref, thres = 2, gthl = 1, gthu = 3)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{species.prj}{
-%%     ~~Describe \code{species.prj} here~~
+  species is a projected polygon for assessment
 }
   \item{ref_area.prj}{
-%%     ~~Describe \code{ref_area.prj} here~~
+  reference area is a projected polygon 
 }
   \item{focal_list}{
-%%     ~~Describe \code{focal_list} here~~
+  Focal list is a vector for target countries or regions, the name should be the same 
+  as in ref_area.prj
 }
   \item{Area_sp_in_ref}{
 %%     ~~Describe \code{Area_sp_in_ref} here~~
 }
   \item{Area_ref}{
-%%     ~~Describe \code{Area_ref} here~~
+  Total area of reference polygon (The unit should be the same, default is square kilometers)
 }
   \item{thres}{
-%%     ~~Describe \code{thres} here~~
+  Threshold for determining the distribution of target species in regional scale.
 }
   \item{gthl}{
-%%     ~~Describe \code{gthl} here~~
+  The lower bound threshold of target species in global scale. 
 }
   \item{gthu}{
-%%     ~~Describe \code{gthu} here~~
+  The upper bound threshold of target species in global scale. 
 }
 }
 \details{

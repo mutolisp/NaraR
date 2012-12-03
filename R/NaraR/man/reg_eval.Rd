@@ -1,8 +1,7 @@
 \name{reg_eval}
 \alias{reg_eval}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+Regional evaluation
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~

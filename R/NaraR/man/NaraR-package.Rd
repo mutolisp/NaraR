@@ -22,10 +22,9 @@ License: \tab What license is it under?\cr
 ~~ functions ~~
 }
 \author{
-Who wrote it
+Lin, Cheng-Tao
 
-Maintainer: Who to complain to <yourfault@somewhere.net>
-~~ The author and/or maintainer of the package ~~
+Maintainer: Lin, Cheng-Tao <mutolisp@gmail>
 }
 \references{
 ~~ Literature or other references for background information ~~
